@@ -40,12 +40,12 @@
     --font-weight-black: 900;
 
     /* Tamanhos */
-    --text-base: 16px;
-    --text-2xl: 24px;
+    --text-base: 14px;
+    --text-2xl: 20px;
     --text-3xl: 32px;
     --text-4xl: 40px;
 
-    --font-headline-1-size: 64px;
+    --font-headline-1-size: 57px;
     --font-headline-1-weight: 600;
     --font-headline-2-size: 48px;
     --font-headline-2-weight: 600;
@@ -117,13 +117,28 @@ a {
     background-color: var(--color-primary);
     padding: 15px 25px;
     border-radius: 4px;
-    align-self: flex-start;
+    /* align-self: flex-start; */
     margin-top: 16px;
     color: var(--color-netral-white);
 }
 
 .btn-primary a {
     color: var(--color-netral-white);
+}
+
+/* Botões */
+.btn-thirst {
+    background-color: var(--color-netral-white);
+    padding: 15px 25px;
+    border-radius: 4px;
+    /* align-self: flex-start; */
+    margin-top: 16px;
+    color: var(--color-netral-white);
+    border: 1px solid var(--color-primary);
+}
+
+.btn-thirst a {
+    color: var(--color-primary);
 }
 
 .btn-upper-case {
@@ -135,7 +150,7 @@ a {
     background-color: var(--color-netral-white);
     padding: 15px 32px;
     border-radius: 4px;
-    align-self: flex-start;
+    /* align-self: flex-start; */
     font-weight: var(--font-weight-bold);
 }
 

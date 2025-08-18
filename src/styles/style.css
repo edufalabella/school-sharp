@@ -32,6 +32,45 @@ header{
     margin-left: 10px;
 }
 
-/*-- ------------ FIM HEADER ---------- --*/
-
 /* ----------- FIM HEADER ----------- */
+
+/* ----------- MAIN ----------- */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main img {
+    margin-left: 63px;
+
+}
+
+.content-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 30px;
+    width: 441px;
+    height: 332px;
+}
+
+.content-hero h1 {
+    font-size: var(--font-headline-1-size);
+    margin-bottom: 32px;
+}
+
+.content-hero p {
+    margin-bottom: 32px;
+    font-size: var(--text-2xl);
+}
+
+.content-hero-btn {
+    display: flex;
+    gap: 8px;
+}
+
+
+/* ----------- FIM MAIN ----------- */
