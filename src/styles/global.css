@@ -18,7 +18,7 @@
     --color-rose: #FFD4C9;
 
     --color-text-color: #FFFFFF;
-    --color-light-text-color: #252B42;
+    --color-black-text-color: #252B42;
     --color-second-text-color: #737373;
     --color-second-text-color2: #FF7171;
     --color-background-color: #FFFFFF;
@@ -41,6 +41,7 @@
 
     /* Tamanhos */
     --text-base: 14px;
+    --text-base2: 16px;
     --text-2xl: 20px;
     --text-3xl: 32px;
     --text-4xl: 40px;
@@ -67,8 +68,8 @@ h1 {
 
 h2 {
     font-size: var(--text-3xl);
-    font-weight: var(--font-weight-semi-bold);
-    color: var(--color-netral-d_grey);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-black-text-color);
 }
 
 h3 {
