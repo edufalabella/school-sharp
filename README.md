@@ -18,14 +18,10 @@
 - 🎯 [Sobre o Projeto](#-sobre-o-projeto)
 - ✨ [Funcionalidades](#-funcionalidades)
 - 🎨 [Layout](#-layout)
-- 🚀 [Como Executar](#-como-executar)
 - 🛠️ [Tecnologias](#️-tecnologias)
-- 📁 [Estrutura do Projeto](#-estrutura-do-projeto)
 - ♿ [Acessibilidade](#-acessibilidade)
 - 🌱 [Próximas Melhorias](#-próximas-melhorias)
-- 🤝 [Como Contribuir](#-como-contribuir)
 - 👨‍💻 [Autor](#-autor)
-- 📄 [Licença](#-licença)
 
 ---
 
@@ -38,7 +34,7 @@ O projeto foca em criar uma experiência visual atrativa e funcional para instit
 - Componentes reutilizáveis  
 - Navegação intuitiva  
 
-### 🎓 Conceitos Aplicados
+### 🎓 Tecnologias
 - Semântica HTML5 (`<header>`, `<nav>`, `<main>`, `<section>`)  
 - Layout com **Flexbox** e **CSS Grid**  
 - Componentização visual  
@@ -63,26 +59,6 @@ O projeto foca em criar uma experiência visual atrativa e funcional para instit
 ![Desktop Preview](./docs/design-03.jpg)
 ![Desktop Preview](./docs/design-04.jpg)
 
-
-### 📁 Estrutura do Projeto
-school-sharp/
-├── 📄 index.html              # Página principal
-├── 📄 README.md               # Documentação
-├── 📄 LICENSE                 # Licença MIT
-├── 📂 src/
-│   ├── 📂 styles/
-│   │   └── 📄 style.css       # Estilos principais
-│   └── 📂 assets/
-│       └── 📂 images/
-│           ├── logo.svg
-│           ├── main-girl-with-books.svg
-│           ├── img-popular-courses.svg
-│           ├── icon-training-courses.svg
-│           ├── icon-online-courses.svg
-│           ├── icon-line.svg
-│           └── right-white.svg
-└── 📂 docs/                   # Screenshots e documentação
-    ├── desktop-preview.png
     
 ## ♿ Acessibilidade
 
@@ -110,7 +86,7 @@ Este projeto segue as diretrizes de acessibilidade web:
 
 ## 👨‍💻 Autores
 <div align="center">
-  <h3>Eduardo, Pable e Bruno</h3>
+  <h3>Eduardo, Pablo e Bruno</h3>
 </div>
 
 
