@@ -14,13 +14,13 @@
 ---
 
 ## 📋 Índice
-- 🎯 [Sobre o Projeto](#-sobre-o-projeto)
-- ✨ [Funcionalidades](#-funcionalidades)
-- 🎨 [Layout](#-layout)
-- 🛠️ [Tecnologias](#️-tecnologias)
-- ♿ [Acessibilidade](#-acessibilidade)
-- 🌱 [Próximas Melhorias](#-próximas-melhorias)
-- 👨‍💻 [Autor](#-autor)
+- 🎯 [Sobre o Projeto](#sobre-o-projeto)
+- ✨ [Funcionalidades](#funcionalidades)
+- 🎨 [Layout](#layout)
+- 🛠️ [Tecnologias](#tecnologias)
+- ♿ [Acessibilidade](#acessibilidade)
+- 🌱 [Próximas Melhorias](#próximas-melhorias)
+- 👨‍💻 [Autores](#autores)
 
 ---
 
@@ -33,7 +33,9 @@ O projeto foca em criar uma experiência visual atrativa e funcional para instit
 - Componentes reutilizáveis  
 - Navegação intuitiva  
 
-### 🎓 Tecnologias
+---
+
+## 🛠️ Tecnologias
 - Semântica HTML5 (`<header>`, `<nav>`, `<main>`, `<section>`)  
 - Layout com **Flexbox** e **CSS Grid**  
 - Componentização visual  
@@ -58,9 +60,9 @@ O projeto foca em criar uma experiência visual atrativa e funcional para instit
 ![Desktop Preview](./docs/design-03.jpg)
 ![Desktop Preview](./docs/design-04.jpg)
 
-    
-## ♿ Acessibilidade
+---
 
+## ♿ Acessibilidade
 Este projeto segue as diretrizes de acessibilidade web:
 
 - ✅ Textos alternativos descritivos em todas as imagens  
@@ -87,7 +89,6 @@ Este projeto segue as diretrizes de acessibilidade web:
 <div align="center">
   <h3>Eduardo, Pablo e Bruno</h3>
 </div>
-
 
 ---
 
