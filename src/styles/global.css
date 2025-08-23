@@ -5,60 +5,26 @@
     box-sizing: border-box;
 }
 
-body {
-    font-family: var(--font);
-}
-
-p {
-    color: var(--color-second-text);
-    font-size: var(--font-body-1-size);
-    line-height: 20px;
-    font-weight: var(--font-body-1-weight-regular);
-}
-
-h2 { 
-    color: var(--color-text);
-    font-size: var(--font-headline-2-size);
-    line-height: 50px;
-    font-weight: var(--font-headline-2-weight);
-}
-
-h6 {
-    /* color: var(--color-primary-text); */
-    font-size: var(--font-headline-6-size);
-    line-height: 24px;
-    font-weight: var(--font-headline-6-weight);
-}
-
-
-.danger-sale{
-    background-color: var(--color-danger);
-    color: var(--color-light-text);
-    width: 52px;
-    height: 24px;
-    text-align: center;
-    border-radius: 3px;
-}
-
+/* Variáveis Globais */
 :root {
     --color-primary: #96BB7C;
     --color-danger: #E74040;
     --color-background-light: #FFFFFF;
     --color-background-dark: #2D4059;
-    --color-muted:#BDBDBD;
-    --color-secundary:#FFAB71;
-    
+    --color-muted: #BDBDBD;
+    --color-secundary: #FFAB71;
+
     --color-primary-text: #96BB7C;
     --color-second-text: #737373;
     --color-text: #252B42;
-    --color-light-text:#FFFFFF;
+    --color-light-text: #FFFFFF;
 
     --font: 'Montserrat';
 
     --font-family: "Montserrat";
     --font-headline-1-size: 58px;
     --font-headline-1-weight: 700;
-    
+
     --font-headline-2-size: 40px;
     --font-headline-2-weight: 700;
 
@@ -72,7 +38,7 @@ h6 {
     --font-body-1-weight-regular: 400;
     --font-body-1-weight-medium: 500;
     --font-body-1-weight-bold: 700;
-    
+
     --font-body-2-size: 16px;
     --font-body-2-weight-regular: 400;
     --font-body-2-weight-medium: 500;
@@ -86,4 +52,125 @@ h6 {
     --font-body-4-weight-regular: 400;
     --font-body-4-weight-medium: 500;
 
+}
+
+/* Corpo do site */
+body {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight-regular);
+    font-size: var(--text-base);
+    color: var(--color-black);
+}
+
+/* Títulos */
+h1 {
+    font-size: var(--text-4xl);
+    font-weight: var(--font-weight-bold);
+}
+
+h2 {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-black-text-color);
+}
+
+h3 {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-weight-medium);
+}
+
+/* Parágrafos */
+p {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-regular);
+    line-height: 1.6;
+    color: var(--color-netral-grey);
+}
+
+.danger-sale {
+    background-color: var(--color-danger);
+    color: var(--color-light-text);
+    width: 52px;
+    height: 24px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+/* Texto em itálico */
+.emphasis {
+    font-style: italic;
+}
+
+/* Texto mais leve */
+.light-text {
+    font-weight: var(--font-weight-light);
+}
+
+/* Texto mais grosso */
+.heavy-text {
+    font-weight: var(--font-weight-black);
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+.btn-navegation a {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+/* Botões */
+.btn-primary {
+    background-color: var(--color-primary);
+    padding: 15px 25px;
+    border-radius: 4px;
+    /* align-self: flex-start; */
+    margin-top: 16px;
+    color: var(--color-netral-white);
+}
+
+.btn-primary a {
+    color: var(--color-netral-white);
+}
+
+/* Botões */
+.btn-thirst {
+    background-color: var(--color-netral-white);
+    padding: 15px 25px;
+    border-radius: 4px;
+    /* align-self: flex-start; */
+    margin-top: 16px;
+    color: var(--color-netral-white);
+    border: 1px solid var(--color-primary);
+}
+
+.btn-thirst a {
+    color: var(--color-primary);
+}
+
+.btn-upper-case {
+    text-transform: uppercase;
+    text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.btn-login {
+    background-color: var(--color-netral-white);
+    padding: 15px 32px;
+    border-radius: 4px;
+    /* align-self: flex-start; */
+    font-weight: var(--font-weight-bold);
+}
+
+.btn-login a {
+    color: var(--color-primary);
+}
+
+/* Listas */
+ul {
+    list-style: none;
 }

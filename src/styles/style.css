@@ -1,4 +1,171 @@
-@import url(./global.css);
+/* Importar as variaveis  */
+@import url("./global.css");
+
+/*-- ------------ HEADER ---------- --*/
+header {
+  display: flex;
+  justify-content: space-around; /* Horizontal | mantem o tamanho nas laterais */
+  align-items: center; /* Vertical */
+  padding: 33px 0px;
+  background-color: var(--color-background-color);
+  font-weight: var(--font-weight-semi-bold);
+}
+
+.nav-header ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-header ul li a {
+  color: var(--color-netral-grey);
+  font-weight: var(--font-body2-weight-regular);
+  transition: 0.3s;
+}
+.nav-header ul li a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.container-btn-header img {
+  margin-left: 10px;
+}
+
+/* ----------- FIM HEADER ----------- */
+
+/* ----------- MAIN ----------- */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main img {
+  margin-left: 63px;
+}
+
+.content-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 30px;
+  width: 441px;
+  height: 332px;
+}
+
+.content-hero h1 {
+  font-size: var(--font-headline-1-size);
+  margin-bottom: 32px;
+}
+
+.content-hero p {
+  margin-bottom: 32px;
+  font-size: var(--text-2xl);
+}
+
+.content-hero-btn {
+  display: flex;
+  gap: 8px;
+}
+
+/* ----------- FIM MAIN ----------- */
+
+/* ----------- SECTION POPULAR COURSES ----------- */
+.section-popular-courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container-popular-cousers-content {
+  width: 463px;
+  height: 116px;
+  margin: 81px 0px 120px 0px;
+}
+
+.container-popular-cousers-content h2 {
+  margin: 15px 0px 10px 0px;
+}
+
+.container-popular-cousers-content span {
+  color: var(--color-primary);
+  font-size: var(--text-2xl);
+  font-weight: var(--font-weight-bold);
+}
+
+.container-popular-cousers-content p {
+  color: var(--);
+  font-size: var(--text-base);
+}
+
+.container-popular-cousers-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-popular-cousers-img img {
+  width: 688px;
+  height: 363;
+}
+/* ----------- FIM SECTION POPULAR COURSES ----------- */
+
+/* ----------- SECTION MOST POPULAR COURSES ----------- */
+.section-most-popular-courses {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.container-most-popular-cousers-content {
+  width: 463px;
+  height: 134px;
+  margin: 184px 0px 80px 0px;
+}
+
+.container-most-popular-cousers-content h2 {
+  margin: 15px 0px 10px 0px;
+}
+
+.container-most-popular-cousers-content span {
+  color: var(--color-primary);
+  font-size: var(--text-2xl);
+  font-weight: var(--font-weight-bold);
+}
+
+.container-most-popular-cousers-content p {
+  color: var(--);
+  font-size: var(--text-base);
+}
+
+.most-popular-courses-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.most-popular-courses-cards-container article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 328px;
+  padding: 35px 16px;
+  /* box-shadow: 0px 2px 10px rgba(171, 190, 209, 0.518); */
+  box-shadow: 0 4px 6px rgba(171, 190, 209, 0.3);
+}
+
+.most-popular-courses-cards-container article:hover {
+  box-shadow: 0px 8px 12px rgba(171, 190, 209, 0.5);
+  transform: translateY(-8px);
+}
+
+.most-popular-courses-cards-container h3 {
+  margin: 20px 0px 20px 0px;
+}
+/* ----------- FIM MOST POPULAR COURSES ----------- */
 
 /* <!-- POPULAR COURSES --> */
 .popular-courses {
