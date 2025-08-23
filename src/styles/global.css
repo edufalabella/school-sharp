@@ -1,8 +1,89 @@
-*{
-    margin: 0;
-    border: 0;
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font);
+}
+
+p {
+    color: var(--color-second-text);
+    font-size: var(--font-body-1-size);
+    line-height: 20px;
+    font-weight: var(--font-body-1-weight-regular);
+}
+
+h2 { 
+    color: var(--color-text);
+    font-size: var(--font-headline-2-size);
+    line-height: 50px;
+    font-weight: var(--font-headline-2-weight);
+}
+
+h6 {
+    /* color: var(--color-primary-text); */
+    font-size: var(--font-headline-6-size);
+    line-height: 24px;
+    font-weight: var(--font-headline-6-weight);
+}
+
+
+.danger-sale{
+    background-color: var(--color-danger);
+    color: var(--color-light-text);
+    width: 52px;
+    height: 24px;
+    text-align: center;
+    border-radius: 3px;
 }
 
 :root {
-    --color-primary: red;
+    --color-primary: #96BB7C;
+    --color-danger: #E74040;
+    --color-background-light: #FFFFFF;
+    --color-background-dark: #2D4059;
+    --color-muted:#BDBDBD;
+    --color-secundary:#FFAB71;
+    
+    --color-primary-text: #96BB7C;
+    --color-second-text: #737373;
+    --color-text: #252B42;
+    --color-light-text:#FFFFFF;
+
+    --font: 'Montserrat';
+
+    --font-family: "Montserrat";
+    --font-headline-1-size: 58px;
+    --font-headline-1-weight: 700;
+    
+    --font-headline-2-size: 40px;
+    --font-headline-2-weight: 700;
+
+    --font-headline-3-size: 24px;
+    --font-headline-3-weight: 700;
+
+    --font-headline-6-size: 14px;
+    --font-headline-6-weight: 700;
+
+    --font-body-1-size: 14px;
+    --font-body-1-weight-regular: 400;
+    --font-body-1-weight-medium: 500;
+    --font-body-1-weight-bold: 700;
+    
+    --font-body-2-size: 16px;
+    --font-body-2-weight-regular: 400;
+    --font-body-2-weight-medium: 500;
+    --font-body-2-weight-bold: 700;
+
+    --font-body-3-size: 14px;
+    --font-body-3-weight-regular: 400;
+    --font-body-3-weight-medium: 500;
+
+    --font-body-4-size: 12px;
+    --font-body-4-weight-regular: 400;
+    --font-body-4-weight-medium: 500;
+
 }

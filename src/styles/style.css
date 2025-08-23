@@ -1,0 +1,188 @@
+@import url(./global.css);
+
+/* <!-- POPULAR COURSES --> */
+.popular-courses {
+    background-color: var(--color-background-light);
+    padding: 61px 0px 72px 0px;
+
+}
+
+.content-student {
+    padding-left: 197.5px;
+
+}
+
+.content-popular {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.content-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 381px;
+    gap: 35px;
+    margin-bottom: 35px;
+
+}
+
+.content-description img {
+    padding: 0px 287px 0px 0px;
+}
+
+.btn-learn1 a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-family: var(--font-body-1-size);
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--color-primary-text);
+}
+
+/* <!-- FIM POPULAR COURSES --> */
+/* <!-- CLIENT MATTERS --> */
+
+.client-matters {
+    background-color: var(--color-background-light);
+    padding: 69px 0px;
+}
+
+.content-client-matters {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding-bottom: 80px;
+}
+
+.content-client-matters h6 {
+    color: var(--color-primary-text)
+}
+
+.client-icons {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: -64px;
+    left: 104px;
+    z-index: 2;
+}
+
+.danger-sale {
+    position: relative;
+    left: 20px;
+    bottom: -44px;
+    z-index: 2;
+}
+
+.client-img {
+    position: absolute;
+    z-index: 1;
+}
+
+.client-visual {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content-sales {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0px 25px 35px;
+    
+}
+
+.content-information {
+    display: flex;
+    gap: 131px;
+}
+
+.content-information a {
+    color: var(--color-primary-text);
+    text-decoration: none;
+    font-weight: var(--font-body-1-weight-bold);
+
+}
+
+.content-evaluations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: var(--color-background-dark);
+    gap: 5px;
+    padding: 5px 5px;
+    border-radius: 20px;
+}
+
+.content-evaluations p {
+    display: flex;
+    gap: 5px;
+}
+
+.content-evaluations p {
+    color: var(--color-light-text);
+
+}
+
+.content-information-quality{
+display: flex;
+flex-direction: column;
+gap: 10px;
+
+}
+.content-information-quality h5 {
+    font-size: var(--font-body-2-size);
+    font-weight: var(--font-body-2-weight-bold);
+}
+
+.content-sales2 h5 {
+    display: flex;
+    gap: 10px;
+    font-weight: var(--font-body-2-weight-bold);
+    color: var(--color-second-text);
+}
+
+.content-values {
+    display: flex;
+    gap: 5px;
+    padding: 10px 0;
+}
+
+.content-values h5 {
+    font-size: var(--font-body-2-size);
+    font-weight: var(--font-body-2-weight-bold);
+}
+
+.content-values h5:nth-of-type(1) {
+    color: var(--color-muted)
+}
+
+.content-values h5:nth-of-type(2) {
+    color: var(--color-secundary)
+}
+
+.btn-learn2 a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    font-family: var(--font-body-1-size);
+    font-weight: 700;
+    line-height: 24px;
+    color: var(--color-primary-text);
+    padding: 10px 10px 10px 12px;
+    border: 2px solid var(--color-primary);
+    width: 144.14px;
+    border-radius: 37px;
+}
+
+
+/* <!-- FIM CLIENT MATTERS --> */
