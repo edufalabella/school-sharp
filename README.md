@@ -95,5 +95,4 @@ Este projeto segue as diretrizes de acessibilidade web:
 <div align="center">
   <p>⭐ Se este projeto te ajudou, considere dar uma estrela!</p>
   <p>💬 Tem alguma sugestão? Abra uma issue ou pull request!</p>
-  <small>Feito com ❤️ e ☕ por Eduardo Falabella</small>
 </div>
