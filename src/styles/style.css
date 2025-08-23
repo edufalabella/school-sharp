@@ -166,3 +166,353 @@ main img {
   margin: 20px 0px 20px 0px;
 }
 /* ----------- FIM MOST POPULAR COURSES ----------- */
+
+/* ----------- inicio Get Quality ----------- */
+
+
+/* ----------- fim Get Quality ----------- */
+.Get-Quality{
+    display: flex;
+    justify-content: center;
+    
+}
+.Quality-Content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 0px;
+    gap: 80px;
+}
+.Quality-Education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.Quality-Education p{
+    text-align: center;
+    width: 463px;
+}
+.Quality-Content-card{
+    display: flex;
+    justify-content: center;
+    width: 1045px;
+    gap: 30px;
+}
+.Quality-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    gap: 35px;
+    box-shadow: 0px 4px 6px rgba(171, 190, 209, 0.5);
+    transition: 0.3s;
+    
+}
+.Quality-card p{
+    color: var(--color-netral-grey);
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-regular);
+    text-align: center;
+    
+}
+.Quality-card p span{
+    color: var(--color-netral-grey);
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-weight-bold); 
+}
+.vantagens-content p{
+    color: var(--color-text);
+    font-size: var(--font-body-1-size);
+    font-weight: var(--font-headline-6-weight);
+    text-align: start;
+}
+.Quality-card:hover{
+    transform: scale(1.1);
+}
+.card-valor span{
+    color: var(--color-primary);
+    font-size: var(--font-headline-2-size);
+    font-weight: var(--font-headline-2-weight);
+}
+.card-valor .small{
+    color: var(--color-disable-element);
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-headline-6-weight);
+}
+
+.Quality-card-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 40px;
+    gap: 35px;
+    box-shadow: 0px 4px 6px rgba(171, 190, 209, 0.5);
+    background-color: #2D4059;
+    position: relative;
+    margin-top: 31px;
+    margin-bottom: 16px;
+    transition: 0.3s;
+}
+.Quality-card-principal:hover{
+    transform: scale(1.1);
+}
+.Quality-card-principal .new{
+    display: flex;
+    bottom: 840px;
+    left: 260px;
+    position: absolute;
+    
+}
+
+.Quality-card-principal h2 span{
+    color: var(--color-light-text);
+    font-size:var(--font-headline-3-size) ;
+    font-weight: var(--font-headline-3-weight);
+}
+.Quality-card-principal p{
+    color: var(--color-light-text);
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-headline-6-weight);  
+    
+}
+#Organize{
+    text-align: center;
+}
+
+#Slate-helps{
+    color: var(--color-light-text);
+    font-size: var(--font-headline-6-size);
+    font-weight: var(--font-body-1-weight-regular);
+    text-align: center;
+
+} 
+.card-valor{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.card-vantagens{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.vantagens-content{
+    display: flex;
+    align-items: center;
+    width: 250px;
+    gap: 4px;
+}
+
+
+/* ----------- inicio Most Popular Courses ----------- */
+
+.Most-Courses{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Most{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 160px 0px;
+    gap: 96px;
+    
+}
+.Most-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 692px;
+    gap: 10px;
+}
+
+.Most-content h3{
+    color: var(--color-black);
+    font-size: var(--text-4xl);
+    font-weight: var(--font-weight-bold);
+    
+}
+.Most-content p{
+    color: var(--color-netral-grey);
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-regular);
+    width: 463px;
+    
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.Most-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 25px 0px 25px;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 30px;
+    width: 451px;
+    gap: 15px;
+}
+.card-content p{
+    text-align: center;
+    width: 159px;
+}
+.profession{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 25px;
+    gap: 5px;
+}
+
+/* ----------- fim Most Popular Courses ----------- */
+
+/* ----------- inicio Newsletter ----------- */
+.Newsletter{
+    background-color: #2D4059;
+    width: 100%;
+    
+}
+.Newsletter-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 160px 0px;
+    gap: 80px;
+    
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 691px;
+    gap: 10px;
+}
+.content h3{
+    color: var(--color-text-color);
+    font-size: var(--text-3xl);
+    font-weight: var(--font-weight-bold);
+}
+.content p{
+    color: var(--color-text-color);
+    width: 463px;
+}
+
+.Newsletter-content form{
+    display: flex;
+}
+
+.Newsletter-content input{
+    width: 688px;
+    padding: 10px;
+    outline: none;
+    border-radius: 4px 0px 0px 4px;    
+}
+.btn-Newsletter{
+    background-color: var(--color-primary);
+    color: var(--color-text-color);
+    cursor: pointer;
+    width: 117px;
+    padding: 20px;
+    border-radius: 0px 4px 4px 0px;
+    
+}
+/* ----------- fim Newsletter ----------- */
+/* ----------- inicio footer ----------- */
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 0px;
+    
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    gap:30px;
+}
+.footer-navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footer-navigation h2{
+    font-size: 16px;
+    font-weight: var(--font-weight-bold);
+}
+.nav-Company ul{
+    display: flex;
+    flex-direction: column;
+    font-size: var(--text-base);
+    color: var(--color-second-text-color);
+    font-weight: var(--font-weight-bold);
+    gap: 10px;
+}
+.nav-Company li{
+    cursor: pointer;
+}
+.nav-Company li:hover{
+    color: var(--color-primary);
+}
+
+.footer-links-contacts div{
+    display: flex;  
+    justify-content: center;
+    
+}
+.footer-links-contacts div a{
+    display: flex;
+    align-items: center;
+    font-size: var(--text-base);
+    color: var(--color-second-text-color);
+    font-weight: var(--font-weight-bold);
+    gap: 10px;  
+}
+.footer-links-contacts div a:hover{
+    color: var(--color-primary);
+}
+
+.Right-Reserved{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: #FAFAFA;
+    gap: 213px;
+    padding: 20px;    
+}
+.Right-Reserved p{
+    color: var(--color-netral-grey);
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-bold);
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    width: 236px;
+    gap: 20px;
+    
+}
+.socials img:hover{
+    transition: 0.3s;
+    transform: translateY(-5px);
+
+}
+
+
+/* ----------- fim footer ----------- */
