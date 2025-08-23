@@ -7,15 +7,22 @@
     font-family: var(--font-family);
 }
 
-/* Variáveis Globais */
+body {
+    font-family: var(--font);
+}
+
+/* ------------------------
+   Variáveis Globais
+------------------------- */
 :root {
-    /* Cores */
+    /* 🎨 Cores do global.css */
     --color-primary: #96BB7C;
     --color-secondary: #3C0506;
     --color-info: #0061FF;
     --color-black: #252B42;
     --color-orange: #FC724D;
     --color-rose: #FFD4C9;
+    --color-background-dark: #2D4059;
 
     --color-text-color: #FFFFFF;
     --color-black-text-color: #252B42;
@@ -25,11 +32,23 @@
     --color-netral-grey: #737373;
     --color-netral-d_grey: #444444;
     --color-netral-white: #FFFFFF;
+    --color-netral-muted: #BDBDBD;
+    --color-netral-second: #FFAB71;
+    --color-disable-element: #8EC2F2;
 
-    /* Fontes */
+    /* 🎨 Cores do global-pab.css */
+    --color-danger: #E74040;
+    --color-background-light: #FFFFFF;
+    --color-primary-text: #96BB7C;
+    --color-second-text: #737373;
+    --color-text: #252B42;
+    --color-light-text: #FFFFFF;
+
+    /* 🔤 Fontes */
+    --font: 'Montserrat';
     --font-family: "Montserrat", sans-serif;
 
-    /* Pesos Montserrat */
+    /* Pesos Montserrat (global.css) */
     --font-weight-extra-light: 200;
     --font-weight-light: 300;
     --font-weight-regular: 400;
@@ -39,20 +58,55 @@
     --font-weight-extra-bold: 800;
     --font-weight-black: 900;
 
-    /* Tamanhos */
+    /* Tamanhos globais */
     --text-base: 14px;
     --text-base2: 16px;
     --text-2xl: 20px;
     --text-3xl: 32px;
     --text-4xl: 40px;
 
+    /* Headline (global.css) */
     --font-headline-1-size: 57px;
     --font-headline-1-weight: 600;
     --font-headline-2-size: 48px;
     --font-headline-2-weight: 600;
+
+    /* Headline (global-pab.css) */
+    --font-headline-1-size: 58px;
+    /* sobrescreve o anterior */
+    --font-headline-1-weight: 700;
+
+    --font-headline-2-size: 40px;
+    /* sobrescreve o anterior */
+    --font-headline-2-weight: 700;
+
+    --font-headline-3-size: 24px;
+    --font-headline-3-weight: 700;
+
+    --font-headline-6-size: 14px;
+    --font-headline-6-weight: 700;
+
+    /* Body text (global-pab.css) */
+    --font-body-1-size: 14px;
+    --font-body-1-weight-regular: 400;
+    --font-body-1-weight-medium: 500;
+
+    --font-body-2-size: 16px;
+    --font-body-2-weight-regular: 400;
+    --font-body-2-weight-medium: 500;
+
+    --font-body-3-size: 14px;
+    --font-body-3-weight-regular: 400;
+    --font-body-3-weight-medium: 500;
+
+    --font-body-4-size: 12px;
+    --font-body-4-weight-regular: 400;
+    --font-body-4-weight-medium: 500;
 }
 
-/* Corpo do site */
+/* ------------------------
+   Corpo do site
+------------------------- */
 body {
     font-family: var(--font-family);
     font-weight: var(--font-weight-regular);
@@ -60,7 +114,9 @@ body {
     color: var(--color-black);
 }
 
-/* Títulos */
+/* ------------------------
+   Títulos
+------------------------- */
 h1 {
     font-size: var(--text-4xl);
     font-weight: var(--font-weight-bold);
@@ -77,30 +133,48 @@ h3 {
     font-weight: var(--font-weight-medium);
 }
 
-/* Parágrafos */
+h5 {
+    /* do global-pab */
+    font-size: var(--font-headline-6-size);
+    line-height: 24px;
+    font-weight: var(--font-headline-6-weight);
+    color: var(--color-text);
+}
+
+h6 {
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-bold);
+}
+
+/* ------------------------
+   Parágrafos
+------------------------- */
 p {
     font-size: var(--text-base);
     font-weight: var(--font-weight-regular);
-    line-height: 1.6;
+    line-height: 24px;
     color: var(--color-netral-grey);
 }
 
-/* Texto em itálico */
+
+/* ------------------------
+   Textos
+------------------------- */
 .emphasis {
     font-style: italic;
 }
 
-/* Texto mais leve */
 .light-text {
     font-weight: var(--font-weight-light);
 }
 
-/* Texto mais grosso */
 .heavy-text {
     font-weight: var(--font-weight-black);
 }
 
-/* Links */
+/* ------------------------
+   Links
+------------------------- */
 a {
     text-decoration: none;
 }
@@ -113,12 +187,13 @@ a {
     color: var(--color-primary);
 }
 
-/* Botões */
+/* ------------------------
+   Botões
+------------------------- */
 .btn-primary {
     background-color: var(--color-primary);
     padding: 15px 25px;
     border-radius: 4px;
-    /* align-self: flex-start; */
     margin-top: 16px;
     color: var(--color-netral-white);
 }
@@ -127,12 +202,10 @@ a {
     color: var(--color-netral-white);
 }
 
-/* Botões */
 .btn-thirst {
     background-color: var(--color-netral-white);
     padding: 15px 25px;
     border-radius: 4px;
-    /* align-self: flex-start; */
     margin-top: 16px;
     color: var(--color-netral-white);
     border: 1px solid var(--color-primary);
@@ -151,7 +224,6 @@ a {
     background-color: var(--color-netral-white);
     padding: 15px 32px;
     border-radius: 4px;
-    /* align-self: flex-start; */
     font-weight: var(--font-weight-bold);
 }
 
@@ -159,7 +231,37 @@ a {
     color: var(--color-primary);
 }
 
-/* Listas */
+/* ------------------------
+   Classes extras
+------------------------- */
+.danger-sale {
+    background-color: var(--color-danger);
+    color: var(--color-light-text);
+    width: 52px;
+    height: 24px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+/* ------------------------
+   Listas
+------------------------- */
 ul {
     list-style: none;
 }
+
+small{
+    color: var(--color-primary);
+    font-size: var(--text-base);
+    font-weight: var(--font-weight-bold);
+    
+}
+
+.Quality-card h2 span{
+    color: var(--color-light-text-color);
+    font-size: 24px;
+    font-weight: var(--font-weight-bold);
+}
+
+
+
