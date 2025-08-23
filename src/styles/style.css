@@ -4,8 +4,10 @@
 /*-- ------------ HEADER ---------- --*/
 header {
   display: flex;
-  justify-content: space-around; /* Horizontal | mantem o tamanho nas laterais */
-  align-items: center; /* Vertical */
+  justify-content: space-around;
+  /* Horizontal | mantem o tamanho nas laterais */
+  align-items: center;
+  /* Vertical */
   padding: 33px 0px;
   background-color: var(--color-background-color);
   font-weight: var(--font-weight-semi-bold);
@@ -22,6 +24,7 @@ header {
   font-weight: var(--font-body2-weight-regular);
   transition: 0.3s;
 }
+
 .nav-header ul li a:hover {
   color: var(--color-primary);
   text-decoration: underline;
@@ -111,6 +114,7 @@ main img {
   width: 688px;
   height: 363;
 }
+
 /* ----------- FIM SECTION POPULAR COURSES ----------- */
 
 /* ----------- SECTION MOST POPULAR COURSES ----------- */
@@ -119,6 +123,7 @@ main img {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  /* border: 1px solid black; */
 }
 
 .container-most-popular-cousers-content {
@@ -147,6 +152,7 @@ main img {
   justify-content: center;
   gap: 30px;
 }
+
 .most-popular-courses-cards-container article {
   display: flex;
   flex-direction: column;
@@ -165,13 +171,16 @@ main img {
 .most-popular-courses-cards-container h3 {
   margin: 20px 0px 20px 0px;
 }
+
 /* ----------- FIM MOST POPULAR COURSES ----------- */
 
 /* <!-- POPULAR COURSES --> */
 .popular-courses {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--color-background-light);
   padding: 61px 0px 72px 0px;
-
 }
 
 .content-student {
@@ -368,7 +377,6 @@ main img {
   color: black;
 }
 
-
 /* <!-- FIM CLIENT MATTERS --> */
 
 
@@ -522,8 +530,8 @@ main img {
     justify-content: center;
     align-items: center;
     
-}
-.Most{
+  }
+  .Most{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -617,6 +625,10 @@ main img {
 .content p{
     color: var(--color-text-color);
     width: 463px;
+}
+
+.content span{
+  color: var(--color-primary);
 }
 
 .Newsletter-content form{
