@@ -1,4 +1,4 @@
-# 🎓 School Sharp
+# 🎓 School Sharp <a id="school-sharp"></a>
 
 <div align="center">
   <img src="https://img.shields.io/badge/status-completed-success?style=for-the-badge" alt="Status">
@@ -13,29 +13,29 @@
 
 ---
 
-## 📋 Índice
+## 📋 Índice <a id="indice"></a>
 - 🎯 [Sobre o Projeto](#sobre-o-projeto)
 - ✨ [Funcionalidades](#funcionalidades)
 - 🎨 [Layout](#layout)
 - 🛠️ [Tecnologias](#tecnologias)
 - ♿ [Acessibilidade](#acessibilidade)
-- 🌱 [Próximas Melhorias](#próximas-melhorias)
+- 🌱 [Próximas Melhorias](#proximas-melhorias)
 - 👨‍💻 [Autores](#autores)
 
 ---
 
-## 🎯 Sobre o Projeto
+## 🎯 Sobre o Projeto <a id="sobre-o-projeto"></a>
 School Sharp é uma landing page educacional desenvolvida para demonstrar habilidades em **HTML semântico** e **CSS moderno**.  
 O projeto foca em criar uma experiência visual atrativa e funcional para instituições de ensino.
 
-### 🎨 Design Highlights
+### 🎨 Design Highlights <a id="design-highlights"></a>
 - Interface limpa e moderna  
 - Componentes reutilizáveis  
 - Navegação intuitiva  
 
 ---
 
-## 🛠️ Tecnologias
+## 🛠️ Tecnologias <a id="tecnologias"></a>
 - Semântica HTML5 (`<header>`, `<nav>`, `<main>`, `<section>`)  
 - Layout com **Flexbox** e **CSS Grid**  
 - Componentização visual  
@@ -43,7 +43,7 @@ O projeto foca em criar uma experiência visual atrativa e funcional para instit
 
 ---
 
-## ✨ Funcionalidades
+## ✨ Funcionalidades <a id="funcionalidades"></a>
 - 🏠 Header responsivo com logotipo e navegação  
 - 🎯 Hero section com CTA duplo (Join Us / Learn More)  
 - 📚 Seção de cursos populares com imagem destacada  
@@ -53,8 +53,8 @@ O projeto foca em criar uma experiência visual atrativa e funcional para instit
 
 ---
 
-## 🎨 Layout
-### Desktop Preview
+## 🎨 Layout <a id="layout"></a>
+### Desktop Preview <a id="desktop-preview"></a>
 ![Desktop Preview](./docs/design-01.jpg)
 ![Desktop Preview](./docs/design-02.jpg)
 ![Desktop Preview](./docs/design-03.jpg)
@@ -62,7 +62,7 @@ O projeto foca em criar uma experiência visual atrativa e funcional para instit
 
 ---
 
-## ♿ Acessibilidade
+## ♿ Acessibilidade <a id="acessibilidade"></a>
 Este projeto segue as diretrizes de acessibilidade web:
 
 - ✅ Textos alternativos descritivos em todas as imagens  
@@ -73,9 +73,9 @@ Este projeto segue as diretrizes de acessibilidade web:
 
 ---
 
-## 🌱 Próximas Melhorias
+## 🌱 Próximas Melhorias <a id="proximas-melhorias"></a>
 
-### 🎯 Roadmap
+### 🎯 Roadmap <a id="roadmap"></a>
 - Responsividade completa (320px, 768px, 1024px, 1440px)  
 - Animações CSS (hover effects, scroll animations)  
 - Dark mode toggle  
@@ -85,7 +85,7 @@ Este projeto segue as diretrizes de acessibilidade web:
 
 ---
 
-## 👨‍💻 Autores
+## 👨‍💻 Autores <a id="autores"></a>
 <div align="center">
   <h3>Eduardo, Pablo e Bruno</h3>
 </div>
