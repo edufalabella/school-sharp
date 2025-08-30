@@ -34,6 +34,20 @@ header {
   margin-left: 10px;
 }
 
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.menu-toggle span {
+  width: 30px;
+  height: 3px;
+  background-color: var(--color-secondary);
+  border-radius: 2px;
+}
+
 /* ----------- FIM HEADER ----------- */
 
 /* ----------- MAIN ----------- */
@@ -473,8 +487,9 @@ main img {
 }
 .Quality-card-principal .new{
     display: flex;
-    bottom: 840px;
-    left: 260px;
+ 
+    top: -40px;
+    right: 30px;
     position: absolute;
     
 }
@@ -732,5 +747,551 @@ footer{
 
 }
 
-
 /* ----------- fim footer ----------- */
+
+
+/* -------------------------------------- */
+/* ----------- Responsividade ----------- */
+/* -------------------------------------- */
+
+@media (max-width: 884px){
+
+/* ----------- Header ----------- */
+
+  .menu-toggle{
+    display: flex;
+  }
+  .nav-header {
+    display: none;
+  }
+
+  .container-btn-header  {
+    display: none;
+  }
+/* ----------- Fim Header ----------- */
+
+/* ----------- Content Hero ----------- */
+
+}
+.content-hero h1{
+  font-size: 2.5rem;
+}
+
+.content-hero-image img {
+  width: 300px;
+  height: 300px;
+}
+
+/* ----------- FIM Content Hero ----------- */
+
+/* ----------- Content Student ----------- */
+
+.content-student {
+  padding-left: 95px;
+  
+}
+
+.content-student img{
+  width: 300px;
+  height: 300px;
+}
+
+
+.Quality-Content-card{
+  width: 250px;
+  gap: 10px;
+}
+.vantagens-content{
+  width: 220px;
+  gap: 4px;
+}
+
+.Quality-card-principal .new{
+  bottom: 900px;
+  left: 250px;
+}
+/* ----------- FIM Content Student ----------- */
+
+/* ----------- RODAPE ----------- */
+
+
+.footer-container{
+    padding: 45px 30px;
+    gap:20px;
+}
+
+/* ----------- FIM RODAPE ----------- */
+
+
+@media (max-width: 480px){
+
+  /* ----------- Header ----------- */
+  header {
+    justify-content: space-between;
+    padding: 20px 15px;
+  }
+  
+  .menu-toggle{
+    display: flex;
+  }
+  
+  .nav-header {
+    display: none;
+  }
+
+  .container-btn-header {
+    display: none;
+  }
+  
+  .logo-header img {
+    width: 120px;
+    height: auto;
+  }
+  
+  /* ----------- Fim Header ----------- */
+
+  /* ----------- Main Content Hero ----------- */
+  main {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 15px;
+    gap: 30px;
+  }
+
+  .content-hero {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    align-items: center;
+  }
+
+  .content-hero h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+  }
+
+  .content-hero p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+
+  .content-hero-btn {
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    margin-left: 100px;
+  }
+
+  .content-hero-btn button {
+    width: 100%;
+    max-width: 280px;
+  }
+
+  .content-hero-image img {
+    width: 280px;
+    height: auto;
+    margin-left: 0;
+  }
+  
+  /* ----------- FIM Main Content Hero ----------- */
+
+  /* ----------- Section Popular Courses ----------- */
+  .section-popular-courses {
+    padding: 40px 15px;
+  }
+
+  .container-popular-cousers-content {
+    width: 100%;
+    height: auto;
+    margin: 40px 0px 60px 0px;
+  }
+
+  .container-popular-cousers-content h2 {
+    font-size: 24px;
+    margin: 15px 0px 15px 0px;
+  }
+
+  .container-popular-cousers-content span {
+    font-size: 16px;
+  }
+
+  .container-popular-cousers-content p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .container-popular-cousers-img img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+  
+  /* ----------- FIM Section Popular Courses ----------- */
+
+  /* ----------- Section Most Popular Courses ----------- */
+  .section-most-popular-courses {
+    padding: 40px 15px;
+  }
+
+  .container-most-popular-cousers-content {
+    width: 100%;
+    height: auto;
+    margin: 40px 0px 40px 0px;
+  }
+
+  .container-most-popular-cousers-content h2 {
+    font-size: 24px;
+    margin: 15px 0px 15px 0px;
+  }
+
+  .container-most-popular-cousers-content span {
+    font-size: 16px;
+  }
+
+  .most-popular-courses-cards-container {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .most-popular-courses-cards-container article {
+    width: 100%;
+    max-width: 320px;
+    padding: 25px 15px;
+  }
+
+  /* ----------- FIM Section Most Popular Courses ----------- */
+
+  /* ----------- Popular Courses ----------- */
+  .popular-courses {
+    padding: 40px 15px;
+  }
+
+  .content-popular {
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .content-student {
+    padding-left: 0;
+  }
+
+  .content-student img {
+    width: 280px;
+    height: auto;
+  }
+
+  .content-description {
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 25px;
+    align-items: center;
+  }
+
+  .content-description img {
+    padding: 0;
+  }
+
+  .content-description h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .content-description p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  /* ----------- FIM Popular Courses ----------- */
+
+  /* ----------- Client Matters ----------- */
+  .client-matters {
+    padding: 40px 15px;
+  }
+
+  .content-client-matters {
+    gap: 15px;
+    padding-bottom: 40px;
+  }
+
+  .content-client-matters h2 {
+    font-size: 24px;
+  }
+
+  .content-client-matters p {
+    font-size: 14px;
+    padding: 0 20px;
+  }
+
+  .client-visual {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .client-one, .client-two {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .client-img1 img, .client-img2 img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .client-icons {
+    left: 80px;
+    top: -50px;
+  }
+
+  .content-information {
+    gap: 80px;
+  }
+
+  .content-values {
+    justify-content: center;
+  }
+
+  /* ----------- FIM Client Matters ----------- */
+
+  /* ----------- Get Quality ----------- */
+  .Get-Quality {
+    padding: 0 15px;
+  }
+
+  .Quality-Content {
+    padding: 80px 0px;
+    gap: 40px;
+  }
+
+  .Quality-Education {
+    gap: 15px;
+  }
+
+  .Quality-Education h2 {
+    font-size: 24px;
+  }
+
+  .Quality-Education p {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 14px;
+  }
+
+  .Quality-Content-card {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .Quality-card, .Quality-card-principal {
+    width: 100%;
+    max-width: 300px;
+    padding: 30px 20px;
+    gap: 25px;
+  }
+
+  .Quality-card-principal {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .Quality-card-principal .new {
+    bottom: 280px;
+    left: 240px;
+  }
+
+  .vantagens-content {
+    width: 100%;
+    max-width: 250px;
+    gap: 8px;
+  }
+
+  .card-valor span {
+    font-size: 32px;
+  }
+
+  /* ----------- FIM Get Quality ----------- */
+
+  /* ----------- Most Popular Courses ----------- */
+  .Most-Courses {
+    padding: 0 15px;
+  }
+
+  .Most {
+    padding: 80px 0px;
+    gap: 60px;
+  }
+
+  .Most-content {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .Most-content h3 {
+    font-size: 24px;
+  }
+
+  .Most-content p {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 14px;
+  }
+
+  .cards {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .Most-card {
+    width: 100%;
+    max-width: 320px;
+    padding: 20px 15px 0px 15px;
+  }
+
+  .Most-card img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .card-content {
+    width: 100%;
+    padding: 20px 15px;
+    gap: 15px;
+  }
+
+  .card-content p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .level-satisfaction {
+    gap: 5px;
+  }
+
+  .level-satisfaction img {
+    width: 30px;
+  }
+
+  .profession h2 {
+    font-size: 18px;
+  }
+
+  .profession h3 {
+    font-size: 14px;
+  }
+
+  /* ----------- FIM Most Popular Courses ----------- */
+
+  /* ----------- Newsletter ----------- */
+  .Newsletter-content {
+    padding: 80px 15px;
+    gap: 40px;
+  }
+
+  .content {
+    width: 100%;
+    gap: 15px;
+  }
+
+  .content h3 {
+    font-size: 24px;
+  }
+
+  .content p {
+    width: 100%;
+    padding: 0 20px;
+    font-size: 14px;
+  }
+
+  .Newsletter-content form {
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+    gap: 15px;
+  }
+
+  .Newsletter-content input {
+    width: 100%;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+  .btn-Newsletter {
+    width: 100%;
+    padding: 15px;
+    border-radius: 4px;
+  }
+
+  /* ----------- FIM Newsletter ----------- */
+
+  /* ----------- Footer ----------- */
+  footer {
+    margin-top: 0;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    padding: 30px 15px;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .footer-navigation {
+    gap: 15px;
+  }
+
+  .footer-navigation h2 {
+    font-size: 18px;
+  }
+
+  .nav-Company ul {
+    gap: 8px;
+  }
+
+  .footer-links-contacts {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .footer-links-contacts div a {
+    justify-content: center;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .Right-Reserved {
+    flex-direction: column;
+    gap: 20px;
+    padding: 25px 15px;
+  }
+
+  .Right-Reserved p {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .socials {
+    width: 100%;
+    max-width: 200px;
+    gap: 15px;
+  }
+
+  .socials img {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* ----------- FIM Footer ----------- */
+
+}
+
+/* ------------------------------------------ */
+/* ----------- FIM Responsividade ----------- */
+/* ------------------------------------------ */
